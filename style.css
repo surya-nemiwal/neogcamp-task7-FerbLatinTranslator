@@ -1,0 +1,100 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+
+:root{
+    --primary-color: #F87171
+}
+
+body{
+    font-family: "Architects Daughter",sans-serif;
+    font-size: large;
+    font-weight: bolder;
+    letter-spacing: .12rem;
+    margin: 0 0;
+}
+
+.section{
+    max-width: 600px;
+    margin: auto;
+}
+.header{
+    /* margin-bottom: 3rem; */
+    margin-bottom: 1rem;
+    background-color: var(--primary-color);
+}
+.header h1{
+    margin:0;
+    padding: 1rem 0rem;
+}
+.phineas-img{
+    height: 200px;
+    background-color: white;
+    color: white;
+   
+}
+.ferb-img{
+    height: 220px;
+    padding-top: 2rem;
+}
+#translateBtn{
+    /* margin: 1rem; */
+    padding: 1rem;
+    margin-bottom: .5rem;
+
+    border-radius: 0px;
+    /* color: ; */
+    background-color: var(--primary-color) ;
+    border: none ;
+    font-family: "Architects Daughter",sans-serif;
+    font-size: large;
+    font-weight: bolder;
+    letter-spacing: .12rem;
+    
+}
+#textarea{
+    height: 100px;
+    width: 90%;
+    margin-left: 1rem;
+    padding: .2rem .5rem ;
+    font-family: "Architects Daughter",sans-serif;
+    font-size: large;
+    /* font-size: 1.1rem; */
+    font-weight: bolder;
+    /* color: darkgray; */
+    letter-spacing: .12rem;
+}
+.display-flex{
+    display: flex;
+}
+.textcenter{
+    text-align: center;
+}
+.output-box{
+ height: 100px;
+ border: 1px solid gray;
+ width: 90%;
+ padding: .2rem .5rem;
+}
+.output-area{
+    flex-grow: 1;
+    /* margin-top: 2.5rem; */
+}
+
+.footer{
+    background-color: var(--primary-color);
+    margin-top: 1.2rem;
+    padding-bottom: .6rem;
+   }
+   
+   footer  p {
+       text-align: justify;
+       font-size: .9rem;
+       margin: 0;
+       padding: 0;
+   }
+   footer  h2{
+       /* margin: .5rem; */
+       margin: 0;
+       padding: .5rem;
+   }
